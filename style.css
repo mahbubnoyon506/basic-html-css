@@ -1,0 +1,94 @@
+h1{font-size: 35px;}
+h2{font-size: 30px;} 
+h3{font-size: 20px;} 
+a{text-decoration: none;color:#ffffff;font-size: 14px;} 
+img{width: 100%;}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    margin: 0 5%;
+}
+.intro, .mission-wrap, .develop, .community,.self-try{
+    display: flex;
+    margin: 50px 0px;
+}
+.intro-text{
+    margin-top: 80px;
+    width: 60%;
+    padding-right: 5%;
+}
+.intro-text h1{
+    border-left: 3px solid #FF5959;
+    letter-spacing: 2px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+.color-text{
+    color: #FCC767;
+    display: block;
+}
+.intro-pic{
+    width: 40%;
+}
+.mission h1{
+    text-align: center;
+}
+.color-text-2{
+    color: #FCC767;   
+}
+.mis-content{
+    width: 32%;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mis-content img{
+    width: 100px;
+    height: 100px;
+}
+.mis-content:last-child{
+    margin-right: none;
+}
+.bg-1{background-color: #EDF5F6;} .bg-2{background-color: #FFEEEE;} .bg-3{background-color: #FFF4D6;}
+.dev-pic,.blog-pic{
+    width: 35%;
+    margin-right: 5%;
+}
+.dev-content{
+    width: 60%;
+}
+.dev-content span,.com-content span,.blog-text span{
+    display: block;
+    line-height: 50px;
+}
+.com-content{
+    width: 60%;
+}
+.com-pic{
+    width: 35%;
+    margin-left: 5%;   
+}
+.blog-heading{
+    text-align: center;
+}
+.blog-pic img{
+    border-radius: 10px;
+}
+footer{
+    background-color: #000000;
+    padding: 15px 0px;
+}
+footer h1{
+    font-family: 'Waterfall', cursive;
+}
+footer h1,footer p{
+    text-align: center;
+    color: #ffffff;
+}
+.color-text-3{
+    color: #FF5959;
+}
